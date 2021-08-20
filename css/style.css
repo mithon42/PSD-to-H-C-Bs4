@@ -1,0 +1,117 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+ul,ol{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0;
+}
+
+/* ================Main - Top================= */
+#main-top .number{
+    font-weight: 600;
+    border-left: 2px solid #ffffff;
+}
+/* Right - Area */
+#main-top #right-area a[href="#"]{
+    border-right: 2px solid #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+#main-top #right-area a[href="#"]:hover{
+    color: #93d693;
+}
+#main-top #right-area a[href="#"]:last-child{
+    border: 0;
+}
+#main-top #right-area a[href="#"] i{
+    font-size: 18px;
+}
+/* ==================MAIN - MENU======================= */
+#main-menu{
+    margin-top: 40px;
+}
+#main-menu .logo a{
+    font-family: 'Otomanopee One', sans-serif;
+    font-weight: 900;
+    font-size: 25px;
+    border: 3px solid #c2c6c9;
+    border-radius: 15px 0 10px 0;
+    color: #ffffff;
+}
+#main-menu .logo a:hover{
+    border: 3px solid #93d693;
+    border-radius: 0 15px 0 15px;
+    color: #93d693;
+}
+#main-menu #menu-madiel ul li a{
+    color: #ffffff;
+}
+#main-menu #menu-madiel ul li a:hover{
+    color: tomato;
+}
+
+/* ======================home-section================== */
+#home-section{
+    margin-top: 96px;
+    background: linear-gradient(rgba(233, 72, 72, 0.5), rgba(77, 189, 77, 0.5)),url(../img/pngtree-blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* =================free-services============ */
+#free-services{
+    background: #f1eaeafa;
+}
+#free-services i{
+    font-size: 30px;
+}
+#free-services span{
+    font-size: 20px;
+}
+/* =============man-woman========== */
+#man-woman .shart-1{
+    height: 250px;
+    background: url(../img/FTC.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#man-woman .shart-2{
+    height: 250px;
+    background: url(../img/new-model.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#man-woman .shart-3{
+    height: 250px;
+    background: url(../img/hi.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#man-woman .shart-4{
+    height: 250px;
+    background: url(../img/tiktok-t-shart.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#man-woman .product-menu{
+    width: 450px;
+    margin: auto;
+}
+/* =====================microsoft==================== */
+#microsoft{
+    background: #d1d1d194;
+}
